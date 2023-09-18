@@ -1,5 +1,8 @@
 import "./App.css";
+import AwesomeSlide from "./components/AwesomeSlide/AwesomeSlide";
+
 import BarChart from "./components/BarChart/BarChart";
+import PieChart from "./components/BarChart/PieChart";
 import LineChart from "./components/LineChart/LineChart";
 import NavBar from "./components/NavBar/NavBar";
 import Phones from "./components/Phones/Phones";
@@ -16,6 +19,8 @@ function App() {
       <LineChart></LineChart>
       <BarChart></BarChart>
       <Phones></Phones>
+      <PieChart></PieChart>
+      <AwesomeSlide></AwesomeSlide>
     </>
   );
 }
