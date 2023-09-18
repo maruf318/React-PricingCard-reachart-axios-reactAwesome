@@ -2,6 +2,7 @@ import "./App.css";
 import BarChart from "./components/BarChart/BarChart";
 import LineChart from "./components/LineChart/LineChart";
 import NavBar from "./components/NavBar/NavBar";
+import Phones from "./components/Phones/Phones";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
 // import DaisyNav from "./components/DaisyNav/DaisyNav";
 
@@ -14,6 +15,7 @@ function App() {
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
       <BarChart></BarChart>
+      <Phones></Phones>
     </>
   );
 }
